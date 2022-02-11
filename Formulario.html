@@ -1,38 +1,31 @@
 <html>
 <head>
-    <title>Calculadora</title>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
-    <link href="css/estilo3.css" rel="stylesheet" />
-    <script src="css/Display.js" type="text/javascript"></script>
-    <script src="css/Calculadora.js" type="text/javascript"></script>
-    <script src="css/index.js" type="text/javascript" defer></script>
+    <title>Formulario</title>
+  <link href="css/estilo4.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="container">
-        <div class="calculadora">
-            <div class="display">
-                <div id="valor-anterior"></div>
-                <div id="valor-actual"></div>
-            </div>
-            <button class="col-2" onclick="display.borrarTodo()">C</button>
-            <button onclick="display.borrar()">&larr;</button>
-            <button class="operador" value="dividir">/</button>
-            <button class="numero">7</button>
-            <button class="numero">8</button>
-            <button class="numero">9</button>
-            <button class="operador" value="multiplicar">X</button>
-            <button class="numero">4</button>
-            <button class="numero">5</button>
-            <button class="numero">6</button>
-            <button class="operador" value="restar">-</button>
-            <button class="numero">1</button>
-            <button class="numero">2</button>
-            <button class="numero">3</button>
-            <button class="operador" value="sumar">+</button>
-            <button class="col-2 numero">0</button>
-            <button class="numero">.</button>
-            <button class="operador" value="igual">=</button>
-        </div>
-    </div>
+  
+
+<form action="/my-handling-form-page" method="post">
+ <ul>
+  <li>
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="user_name" />
+  </li>
+  <li>
+    <label for="mail">Correo electrónico:</label>
+    <input type="email" id="mail" name="user_email" />
+  </li>
+  <li>
+    <label for="msg">Mensaje:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </li>
+    
+     
+    <li class="button">
+  <button type="submit"><a href="botones.html"> Registrar y pasar a siguiente pagina </a> </button>
+</li>
+
+
 </body>
 </html>

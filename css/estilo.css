@@ -49,3 +49,24 @@ h1 {
   
 }
 
+
+#Contenedor4{
+
+  
+  height: 80%;
+  width: 50%;
+  float: right;
+  text-align: center;
+  background-color: #DBA79C;
+}
+
+
+#Contenedor5{
+  border: 0px solid greenyellow;
+  height: 80%;
+  width: 49%;
+  text-align: center;
+  background-color: #DBA79C;
+  
+}
+

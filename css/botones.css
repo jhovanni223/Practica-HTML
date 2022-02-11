@@ -1,0 +1,23 @@
+.titulo{
+    font-size:50px;
+    color:aqua;
+    padding: 10px;
+}
+
+.contenedor{
+    background-color: darkorange;
+    margin: 0 auto;
+    width: 600px; 
+    height: 600px;
+    left: 0;
+    top:0;
+    text-align: center;
+}
+
+.cuadrito{
+    margin-top: 15px;
+
+}
+h1{
+    text-align: center;
+}
